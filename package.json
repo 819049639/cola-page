@@ -1,0 +1,35 @@
+{
+  "name": "cola-page",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "cola-page",
+    "zce"
+  ],
+  "repository": "819049639/cola-page",
+  "license": "MIT",
+  "author": "王强 <wangqiang@feewee.cn> (https://github.com/819049639/cola-page)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.4"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
